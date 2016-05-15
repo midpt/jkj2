@@ -1,13 +1,17 @@
----
-layout: page
-title: Project site
-tagline: 
-description: This is GitHub Pages
----
+;;;
+"layout": "page",
+"title": "Project site",
+"tagline":" ", 
+"description": "This is GitHub Pages",
+"v1":"dog",
+"v2":"cat"	
+;;;
 
 ###More heading
 
+v1 value is: {{page.v1}}
 
+v2 value is: {{page.v2}}
 
 
 Visit other pages on this site
