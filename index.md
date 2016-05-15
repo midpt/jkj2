@@ -49,7 +49,7 @@ Jekyll liquid tags consist of double curly braces like so.
 
 
   {% for item in page.ani %}
-    {{item}}
+    {{item[0]}}
   {% else %}
     <p>Empty item</p>
   {% endfor %} 
