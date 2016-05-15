@@ -67,7 +67,7 @@ Jekyll liquid tags consist of double curly braces like so.
 {% for item in page.work_left %}
   Name is:{{ item.name }} <br/>
   image is: {{ item.image }}<br/>
-  description: {{}item.description}<br/>
+  description: {{item.description}}<br/>
 {% endfor %}
 
      
