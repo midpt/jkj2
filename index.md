@@ -5,7 +5,8 @@ tagline: Go for it
 description: This is GitHub Pages
 v1: abcd
 v2: efgh
-ani:[dog,cat, tiger, lion, leopard]
+anis:
+  canine:dog
 ---
 
 
