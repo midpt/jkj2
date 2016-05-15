@@ -1,14 +1,14 @@
 ;;;
-"title": "Overview page site"
+"title" : "Overview page site"
 ;;;
 
 ## Overview page
 
-**Retrieve json front matter**
+** Retrieve json front matter **
 
 Title is : {{page.title}}
 
-Get custom variable
+
 
 
 
