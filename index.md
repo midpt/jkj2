@@ -62,10 +62,12 @@ Jekyll liquid tags consist of double curly braces like so.
 
 ### Liquid code CONTROLS using curly braces and percentage signs
 
+**Collection of items**
 
 {% for item in page.work_left %}
-  {{ item.name }}
-  {{ item.image }}
+  Name is:{{ item.name }} <br/>
+  image is: {{ item.image }}<br/>
+  description: {{}item.description}<br/>
 {% endfor %}
 
      
