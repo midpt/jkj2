@@ -3,7 +3,6 @@ layout: default
 title: Project site
 tagline: Go for it 
 description: This is GitHub Pages
-v1:dog
 ---
 
 ###Github front matter with liquid tags
@@ -20,7 +19,7 @@ tagline value is: {{page.tagline}}
 
 description value is: {{page.description}}
 
-v1 value is: {{page.v1}}
+> v1 value is: {{page.v1}}
 
 
 Visit other pages on this site
