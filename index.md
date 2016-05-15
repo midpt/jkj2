@@ -6,13 +6,13 @@ description: This is GitHub Pages
 v1: abcd
 v2: efgh
 links:
- - site: http://www.github.com/copperegg/mongo-scaling-demo
+ - url: http://www.github.com/copperegg/mongo-scaling-demo
    sitename:github
- - site: http://www.google.com
+ - url: http://www.google.com
    sitename:google
- - site: http://www.bing.com
-   site: Bing
- - site: http://www.gsmarena.com
+ - url: http://www.bing.com
+   sitename: Bing
+ - url: http://www.gsmarena.com
    sitename:gsmarena
 work_left:
   - name: isitgo
@@ -72,7 +72,7 @@ Retrieve data on links
 
 {% for item in page.links %}
   Site name:{{item.sitename}}<br/>
-  Site url:{{ item.site }} <br/>
+  Site url:{{ item.url }} <br/>
 
 {% endfor %}
 
