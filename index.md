@@ -5,8 +5,20 @@ tagline: Go for it
 description: This is GitHub Pages
 v1: abcd
 v2: efgh
-anis:
-  canine:dog
+work_left:
+  - name: isitgo
+    image: /images/isitgo.png
+    caption: isitgoonair.net homepage
+    description: a website
+  - name: disko
+    image: /images/disko.png
+    caption: Disko
+    description: a website
+work_right:
+  - name: qfi
+    image: /images/qfi.png
+    caption: qfi.im
+    description: a website
 ---
 
 
@@ -51,12 +63,10 @@ Jekyll liquid tags consist of double curly braces like so.
 ### Liquid code CONTROLS using curly braces and percentage signs
 
 
-  {% for ani in page.anis %}
-    {{ani[0]}}
-	{{ani[1]}}
-  {% else %}
-    <p>no item</p>
-  {% endfor %} 
+{% for item in page.work_left %}
+  {{ item.name }}
+  {{ item.image }}
+{% endfor %}
 
      
   
