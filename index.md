@@ -86,6 +86,15 @@ Retrieve data on **work-left**
   description: {{item.description}}<br/>
 {% endfor %}
 
+Get all the front matter
+
+<h1>List</h1>
+<ol>
+  <% current_page.data.my_list.each do |f| %>
+  <li><%= f %></li>
+  <% end %>
+ </ol>
+ 
  
 Goto [Overview](pages/overview.html) 
   
