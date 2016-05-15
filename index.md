@@ -38,7 +38,7 @@ tagline value is: {{page.tagline}}
 description value is: {{page.description}}
 
 v1 value is: {{page.v1}}
-v2 value is: {{}page.v2}
+v2 value is: {{page.v2}}
 
 
 Visit other pages on this site
