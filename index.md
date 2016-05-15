@@ -23,7 +23,7 @@ I have created the following front matters with custom variables such as tagline
  description: This is GitHub Pages
  v1: abcd
  v2: efgh
- ani:
+ anis:
 	dog: cat
  ---
 ```
@@ -50,11 +50,11 @@ Jekyll liquid tags consist of double curly braces like so.
 ### Liquid code CONTROLS using curly braces and percentage signs
 
 
-  {% for item in page.ani %}
-    {{item[0]}}
-	{{item[1]}}
+  {% for ani in page.anis %}
+    {{ani[0]}}
+	{{ani[1]}}
   {% else %}
-    <p>Empty item</p>
+    <p>no item</p>
   {% endfor %} 
 
   
