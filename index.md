@@ -36,6 +36,15 @@ To get the values of the custom variables from the front matter, use liquid tag 
 </pre>
 
 
+### Header test
+
+Quote test
+
+> Inside quote
+> Inside quote 2
+
+
+
 **The result**
 
 tagline value is: {{page.tagline}}
