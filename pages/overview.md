@@ -1,6 +1,6 @@
 ;;;
 "title": "Overview page site",
-"v1": "How are you ?"
+"v1": "How are you"
 ;;;
 
 ## Overview page
@@ -12,6 +12,6 @@ Title is : {{page.title}}
 Get custom variable
 
 
-v1 value is : {{page.v1}}
+
 
 
