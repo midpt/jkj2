@@ -25,10 +25,10 @@ I have created the following front matters with custom variables such as tagline
  ---
 ```
 
-**Using the variables via liquid tag**
+### Using the variables via liquid tag**
 
-To get the values of the custom variables from the front matter, use liquid tags.
-Jekyll liquid tags double curly braces 
+To get the values of the custom variables from the front matters, use liquid tags.
+Jekyll liquid tags consist of double curly braces like so.
 
 ```
   {% raw %}  {{page.v1}} {% endraw %}
