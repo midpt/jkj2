@@ -67,7 +67,10 @@ Jekyll liquid tags consist of double curly braces like so.
 **Collection of items**
 
 Retrieve data on links
-
+{% for item in page.animals %}
+  fmaily:{{ item.family }} <br/>
+  name: {{ item.nme }}<br/>
+{% endfor %}
 
 
 Retrieve data on "work-left"
