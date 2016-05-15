@@ -90,9 +90,9 @@ Get all the front matter
 
 <h1>List</h1>
 <ol>
-  <% current_page.data.my_list.each do |f| %>
-  <li><%= f %></li>
-  <% end %>
+  {% current_page.data.my_list.each do |f| %}
+  <li>{%= f %}</li>
+  {% end %}
  </ol>
  
  
