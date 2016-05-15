@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Project site
 tagline: Go for it 
 description: This is GitHub Pages
