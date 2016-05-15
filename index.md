@@ -31,8 +31,8 @@ To get the values of the custom variables from the front matter, use liquid tag 
 
 ```
 >  inside pre tags
->  \{\{page.v1\}\}
->  \{\{page.v2\}\}
+>  {% raw %}  {{page.v1}} {% endraw %}
+>  {% raw %}  {{page.v2}}  {% endraw %}
 ```
 
 
