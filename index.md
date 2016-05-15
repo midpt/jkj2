@@ -22,10 +22,11 @@ I have created the following front matters with custom variables such as tagline
  description: This is GitHub Pages
  v1: abcd
  v2: efgh
+ ani:[dog,cat, tiger, lion, leopard]
  ---
 ```
 
-### Using the variables via liquid tag**
+### Using the variables via liquid tag
 
 To get the values of the custom variables from the front matters, use liquid tags.
 Jekyll liquid tags consist of double curly braces like so.
@@ -44,8 +45,12 @@ Jekyll liquid tags consist of double curly braces like so.
 **v1 value is:** {{page.v1}}
 **v2 value is:** {{page.v2}}
 
- 
+### Liquid code CONTROLS using curly braces and percentage signs
 
+ {% for item in page.ani %}
+    {{item}}
+{% endfor %} 
+  
 ---
 
 Others
