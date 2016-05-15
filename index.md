@@ -5,6 +5,7 @@ tagline: Go for it
 description: This is GitHub Pages
 v1: abcd
 v2: efgh
+ani:[dog,cat, tiger, lion, leopard]
 ---
 
 
@@ -49,7 +50,7 @@ Jekyll liquid tags consist of double curly braces like so.
 
 
   {% for item in page.ani %}
-    {{item[0]}}
+    {{item}}
   {% else %}
     <p>Empty item</p>
   {% endfor %} 
