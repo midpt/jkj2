@@ -16,11 +16,11 @@ work_left:
     description: a website
 lnks:
   - uurl: http://www.github.com/copperegg/mongo-scaling-demo
-   sname:github
+    sname:github
   - uurl: http://www.google.com
-   sname: google
+    sname: google
   - uurl: http://www.bing.com
-   sname: Bing
+    sname: Bing
   - uurl: http://www.gsmarena.com
    sname: gsmarena	
 ---
