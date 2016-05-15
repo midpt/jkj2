@@ -5,15 +5,6 @@ tagline: Go for it
 description: This is GitHub Pages
 v1: abcd
 v2: efgh
-links:
- - uurl: http://www.github.com/copperegg/mongo-scaling-demo
-   sitename:github
- - uurl: http://www.google.com
-   sitename:google
- - uurl: http://www.bing.com
-   sitename: Bing
- - uurl: http://www.gsmarena.com
-   sitename:gsmarena
 work_left:
   - name: isitgo
     image: /images/isitgo.png
