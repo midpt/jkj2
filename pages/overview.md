@@ -1,6 +1,5 @@
 ;;;
-"title": "Overview page site",
-"v1": "How are you"
+"title": "Overview page site"
 ;;;
 
 ## Overview page
