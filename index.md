@@ -38,8 +38,13 @@ I have created the following front matters with custom variables such as tagline
  description: This is GitHub Pages
  v1: abcd
  v2: efgh
- anis:
-	dog: cat
+animals:
+   - family: mammal 
+     nme: dolphin
+   - family: mammal 
+     nme: whale
+   - family: bird 
+     nme: sparrow
  ---
 ```
 
@@ -66,7 +71,7 @@ Jekyll liquid tags consist of double curly braces like so.
 
 **Collection of items**
 
-Retrieve data on links
+Retrieve data on animals
 {% for item in page.animals %}
   fmaily:{{ item.family }} <br/>
   name: {{ item.nme }}<br/>
