@@ -30,6 +30,7 @@ I have created the following front matter with custom variables such as v1 and v
 To get the values of the custom variables from the front matter, use liquid tag like so. 
 
 <pre> 
+  inside pre tags
  {{page.v1}}
  {{page.v2}}
 </pre>
