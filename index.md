@@ -22,7 +22,7 @@ lnks:
   - uurl: http://www.bing.com
     sname: Bing
   - uurl: http://www.gsmarena.com
-   sname: gsmarena	
+    sname: gsmarena	
 ---
 
 
