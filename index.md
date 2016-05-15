@@ -27,23 +27,13 @@ I have created the following front matter with custom variables such as v1 and v
 
 **Using the variables via liquid tag**
 
-To get the values of the custom variables from the front matter, use liquid tag like so. 
+To get the values of the custom variables from the front matter, use liquid tags.
+Jekyll liquid tags double curly braces 
 
 ```
-  inside fence code tripple backticks
   {% raw %}  {{page.v1}} {% endraw %}
   {% raw %}  {{page.v2}}  {% endraw %}
 ```
-
-
-### Header test
-
-Quote test
-
-> Inside quote
-> Inside quote 2
-
-
 
 **The result**
 
