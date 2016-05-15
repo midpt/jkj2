@@ -1,9 +1,9 @@
 ---
-layout: page,
-title: Project site,
-tagline: , 
-description: This is GitHub Pages,
-v1:dog,
+layout: page
+title: Project site
+tagline:  
+description: This is GitHub Pages
+v1:dog
 v2:cat	
 ---
 
@@ -13,19 +13,19 @@ Github jekyll support liquid tag using double curly braces with object "page".
 
 I have created the following front matter 
 
->---
->layout: page,
->title: Project site,
->tagline: , 
->description: This is GitHub Pages,
->v1:dog,
->v2:cat	
->---
+> ---
+> layout: page,
+> title: Project site,
+> tagline: , 
+> description: This is GitHub Pages,
+> v1:dog,
+> v2:cat	
+> ---
 
 To get the value of custome variable v1 and v2 using curly braces like so.
 
->v1 value is: {{page.v1}}
->v2 value is: {{page.v2}}
+> v1 value is: {{page.v1}}
+> v2 value is: {{page.v2}}
 
 **The result**
 
