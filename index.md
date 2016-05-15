@@ -14,6 +14,13 @@ work_left:
     image: /images/disko.png
     caption: Disko
     description: a website
+animals:
+   - family: mammal 
+     nme: dolphin
+   - family: mammal 
+     nme: whale
+   - family: bird 
+     nme: sparrow
 ---
 
 
