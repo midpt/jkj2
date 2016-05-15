@@ -15,13 +15,13 @@ work_left:
     caption: Disko
     description: a website
 lnks:
- - uurl: http://www.github.com/copperegg/mongo-scaling-demo
+  - uurl: http://www.github.com/copperegg/mongo-scaling-demo
    sname:github
- - uurl: http://www.google.com
+  - uurl: http://www.google.com
    sname: google
- - uurl: http://www.bing.com
+  - uurl: http://www.bing.com
    sname: Bing
- - uurl: http://www.gsmarena.com
+  - uurl: http://www.gsmarena.com
    sname: gsmarena	
 ---
 
