@@ -70,11 +70,7 @@ Jekyll liquid tags consist of double curly braces like so.
 
 Retrieve data on links
 
-{% for item in page.links %}
-  Site name:{{item.sitename}}<br/>
-  Site url:{{ item.uurl }} <br/>
 
-{% endfor %}
 
 Retrieve data on "work-left"
 
