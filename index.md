@@ -5,6 +5,15 @@ tagline: Go for it
 description: This is GitHub Pages
 v1: abcd
 v2: efgh
+links:
+ - site: http://www.github.com/copperegg/mongo-scaling-demo
+   sitename:github
+ - site: http://www.google.com
+   sitename:google
+ - site: http://www.bing.com
+   site: Bing
+ - site: http://www.gsmarena.com
+   sitename:gsmarena
 work_left:
   - name: isitgo
     image: /images/isitgo.png
@@ -13,11 +22,6 @@ work_left:
   - name: disko
     image: /images/disko.png
     caption: Disko
-    description: a website
-work_right:
-  - name: qfi
-    image: /images/qfi.png
-    caption: qfi.im
     description: a website
 ---
 
@@ -63,6 +67,16 @@ Jekyll liquid tags consist of double curly braces like so.
 ### Liquid code CONTROLS using curly braces and percentage signs
 
 **Collection of items**
+
+Retrieve data on links
+
+{% for item in page.links %}
+  Site name:{{item.sitename}}<br/>
+  Site url:{{ item.site }} <br/>
+
+{% endfor %}
+
+Retrieve data on "work-left"
 
 {% for item in page.work_left %}
   Name is:{{ item.name }} <br/>
