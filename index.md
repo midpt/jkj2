@@ -8,7 +8,7 @@ v2: efgh
 ---
 
 
-###Github front matter with liquid tags
+###Github front matter with liquid tags###
 
 Github jekyll support liquid tag using double curly braces with object "page".
 
