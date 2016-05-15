@@ -8,32 +8,30 @@ v2: efgh
 ---
 
 
-<h3>Github front matter with liquid tags</h3>
+###Github front matter with liquid tags
 
 Github jekyll support liquid tag using double curly braces with object "page".
 
 I have created the following front matter with custom variables such as v1 and v2
 
-<pre>
- ---
- layout: page
- title: Project site
- tagline: Go for it 
- description: This is GitHub Pages
- v1: abcd
- v2: efgh
- ---
-</pre>
+
+> ---
+> layout: page
+> title: Project site
+> tagline: Go for it 
+> description: This is GitHub Pages
+> v1: abcd
+> v2: efgh
+> ---
 
 **Using the variables via liquid tag**
 
 To get the values of the custom variables from the front matter, use liquid tag like so. 
 
-<pre> 
-  inside pre tags
- {{page.v1}}
- {{page.v2}}
-</pre>
+
+>  inside pre tags
+>  {{page.v1}}
+>  {{page.v2}}
 
 
 ### Header test
